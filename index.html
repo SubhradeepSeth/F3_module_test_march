@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market value</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <div class="main">
+            <div class="search-sort flex">
+                <input type="text" id="search-items" placeholder="Search By Name or Symbol" value="">
+                <button class="market-cap-sort flex" onclick="sortData('marketCap')">Sort By Mkt Cap</button>
+                <button class="parcentage-sort flex" onclick="sortData('parcentage')">Sort by percentage</button>
+            </div>
+            <div class="table-list">
+                <table class="table-items">
+                    
+                    <tbody id="item">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
